@@ -1,2 +1,3 @@
 Assignmnet 6
 In this Assignmnet I will analyse Placement.csv files and understand salary and placement datasss
+Tommrow pratical

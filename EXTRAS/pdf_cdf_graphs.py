@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
 
-# Generate data
 x = np.linspace(-4, 4, 1000)
 pdf = norm.pdf(x, loc=0, scale=1)  
 cdf = norm.cdf(x, loc=0, scale=1)  

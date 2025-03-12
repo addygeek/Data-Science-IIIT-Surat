@@ -1,2 +1,2 @@
 new
-console
+console.log

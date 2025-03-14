@@ -1,2 +1,2 @@
 new
-console.log
+console.log('hello')

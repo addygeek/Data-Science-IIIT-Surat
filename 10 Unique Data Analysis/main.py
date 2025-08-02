@@ -77,12 +77,9 @@ def detect_outliers(series):
     return series[(series < lower_bound) | (series > upper_bound)]
 
 outliers = detect_outliers(df['Amount'])
-print("\nOutliers in Transaction Amounts:")
-print(outliers)
+print("\nOutliers in Transaction 'l
 
-# ===============================================
-# 8. Save Processed Data to a New CSV File
-# ===============================================
+
 output_file = "processed_data.csv"
 df.to_csv(output_file, index=False)
 print(f"\nProcessed dataset saved to {output_file}")

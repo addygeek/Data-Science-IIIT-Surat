@@ -1,0 +1,2 @@
+new
+console.log('hello')
